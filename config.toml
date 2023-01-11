@@ -1,0 +1,138 @@
+baseURL       = "https://www.sig9.ch/"
+languageCode  = "en-us"
+title         = "sig9 | IT & Cybersecurity Consulting in Zurich, Switzerland"
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+#  [[menu.nav]]
+#    name    = "Home"
+#    url     = ""
+#    weight  = 1
+#  [[menu.nav]]
+#    name    = "About"
+#    url     = "about"
+#    weight  = 2
+#  [[menu.nav]]
+#    name    = "Portfolio"
+#    url     = "portfolio"
+#    weight  = 3
+#  [[menu.nav]]
+#    name    = "Blog"
+#    url     = "blog"
+#    weight  = 4
+  [[menu.nav]]
+    name    = "Get in touch"
+    url     = "contact"
+    weight  = 1
+
+# Site Params
+[params]
+  logo = "images/logo.jpg"
+  dateFormat = "01 GEN 1970"
+  # Meta data
+  description = "sig9 | IT & Cybersecurity Consulting in Zurich, Switzerland"
+  author = "sig9"
+  # Google Analitycs
+  googleAnalitycsID = "TODO"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspree  = "https://formspree.io/f/xrgvgdld"
+
+  # About
+  [params.about]
+    title = "About Us"
+    heading  = "SIG9. YOUR INFOSEC OCCULTISTS."
+    description  = "Protecting the unseen, securing the unknown.<br><br>Schedule a consultation."
+    expertise_title = "Expertise"
+    expertise_sectors = ["Software & Infrastructure Design", "IT Security Audit", "Pentest & Code Review", "Bitcoin, Blockchain Technology & Web3", "Key Ceremony & Secrets Management", "Blockchain Intelligence"]
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Project Type"
+    placeholder_about_the_project = "About the Project"
+    send_message                  = "Send Message"
+
+    [[params.contactForm.projectType]]
+      value = "audit"
+      title  = "IT Security Audit / Pentest / Code Review"
+    [[params.contactForm.projectType]]
+      value = "software-infra-design"
+      title  = "Software / Infrastructure Design"
+    [[params.contactForm.projectType]]
+      value = "blockchain-project"
+      title  = "Bitcoin / Blockchain / Web3 Project"
+    [[params.contactForm.projectType]]
+      value = "secrets-management"
+      title  = "Key Ceremony / Secrets Management"
+    [[params.contactForm.projectType]]
+      value = "blockchain-intelligence"
+      title  = "Blockchain Intelligence"
+
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = ""
+    tagline               = ""
+    primary_button        = "See Our Works"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Connect with Us"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "OUR RECENT WORKS"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Submit Query"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact"
+      address = ""
+      phone   = ""
+      email   = "info@sig9.ch"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About"
+          url  = "about"
+#        [[params.footer.sitemap.link]]
+#          name = "Projects"
+#          url  = "portfolio"
+#        [[params.footer.sitemap.link]]
+#          name = "Blog"
+#          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social"
+        [[params.footer.social.link]]
+          name = "LinkedIn"
+          url  = "https://www.linkedin.com/company/sig9sec"
+      # Footer Service
+      [params.footer.service]
+        title       = "We help companies:"
+        description = "Design secure software<br>Consolidate infrastructure<br>Protect IT assets"
