@@ -36,7 +36,7 @@ summarylength = 25
   description = "sig9 | IT & Cybersecurity Consulting in Zurich, Switzerland"
   author = "sig9"
   # Google Analitycs
-  googleAnalitycsID = "TODO"
+  googleAnalitycsID = "G-H9MCGB28HY"
   # We're using formspree.io for form handling, paste your formspree url below
   formspree  = "https://formspree.io/f/xrgvgdld"
 
