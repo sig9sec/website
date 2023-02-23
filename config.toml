@@ -135,4 +135,4 @@ summarylength = 25
       # Footer Service
       [params.footer.service]
         title       = "We help companies:"
-        description = "Design secure software<br>Consolidate infrastructure<br>Protect IT assets"
+        description = "Design secure software<br>Consolidate their IT infrastructure<br>Protect digital assets"
