@@ -46,7 +46,7 @@ summarylength = 25
     heading  = "SIG9. YOUR INFOSEC OCCULTISTS."
     description  = "Protecting the unseen, securing the unknown.<br><br>Schedule a consultation."
     expertise_title = "Expertise"
-    expertise_sectors = ["Software & Infrastructure Design", "IT Security Audit", "Pentest & Code Review", "Bitcoin, Blockchain Technology & Web3", "Key Ceremony & Secrets Management", "Blockchain Intelligence"]
+    expertise_sectors = ["Software & Infrastructure Design", "IT Security Audits, Pentests & Code Reviews", "Bitcoin, Blockchain Technology & Web3", "Key Ceremonies & Secrets Management", "Blockchain Intelligence"]
 
   # Contact Form
   [params.contactForm]
