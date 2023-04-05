@@ -108,9 +108,9 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact"
-      address = ""
-      phone   = ""
       email   = "info@sig9.ch"
+      phone   = ""
+      address = "Dienerstrasse 15<br>8004 Zürich<br>Switzerland"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
