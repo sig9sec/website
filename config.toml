@@ -111,6 +111,7 @@ summarylength = 25
       email   = "info@sig9.ch"
       phone   = ""
       address = "Dienerstrasse 15<br>8004 Zürich<br>Switzerland"
+      vat = "CHE-207.780.446 MWST"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
