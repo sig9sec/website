@@ -1,0 +1,22 @@
+enable: true
+title: "Trusted by"
+testimonial_item:
+  - logo: "images/testimonial/unicrow.jpg"
+    website: "https://unicrow.io"
+    description: >
+      Unicrow is the first trust-minimized, censorship-resistant and permissionless escrow protocol.
+
+  - logo: "images/testimonial/vaf-compliance.jpg"
+    website: "https://vaf.global"
+    description: >
+      VAF Compliance is a virtual asset forensic services provider based and licensed in Dubai, UAE.
+
+  - logo: "images/testimonial/neptune.jpg"
+    website: "https://neptune.cash"
+    description: >
+      Neptune is a new privacy and scalability focused L1 blockchain that leverages cutting edge zero-knowledge proof cryptography.
+
+  - logo: "images/testimonial/enso.jpg"
+    website: "https://enso.finance"
+    description: >
+      Enso is a unified DeFi API to interact with all DeFi primitives conveniently.
