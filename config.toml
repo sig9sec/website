@@ -50,26 +50,25 @@ summarylength = 25
 
   # Contact Form
   [params.contactForm]
-    placeholder_first_name        = "First Name"
-    placeholder_last_name         = "Last Name"
+    placeholder_name              = "Name"
     placeholder_email             = "Email"
-    placeholder_project_type      = "Project Type"
-    placeholder_about_the_project = "About the Project"
+    placeholder_topic             = "Topic"
+    placeholder_context           = "Just a little bit of context (avoid sensitive info)."
     send_message                  = "Send Message"
 
-    [[params.contactForm.projectType]]
+    [[params.contactForm.topic]]
       value = "audit"
       title  = "IT Security Audit / Pentest / Code Review"
-    [[params.contactForm.projectType]]
+    [[params.contactForm.topic]]
       value = "software-infra-design"
       title  = "Software / Infrastructure Design"
-    [[params.contactForm.projectType]]
+    [[params.contactForm.topic]]
       value = "blockchain-project"
       title  = "Bitcoin / Blockchain / Web3 Project"
-    [[params.contactForm.projectType]]
+    [[params.contactForm.topic]]
       value = "secrets-management"
       title  = "Key Ceremony / Secrets Management"
-    [[params.contactForm.projectType]]
+    [[params.contactForm.topic]]
       value = "blockchain-intelligence"
       title  = "Blockchain Intelligence"
 
