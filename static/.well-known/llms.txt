@@ -1,0 +1,22 @@
+# sig9
+
+> sig9 is an IT and cybersecurity consulting firm in Zurich, Switzerland.
+> We help companies design secure software, consolidate their IT
+> infrastructure and protect digital assets. Services: security audits,
+> pentests and code reviews, secure software and infrastructure design,
+> Bitcoin/blockchain and Web3 engineering, key ceremonies and secrets
+> management, blockchain intelligence.
+
+## Security Bulletins
+
+Daily cybersecurity intelligence, published as "Hacker Wars". Each
+bulletin summarizes the day's most relevant attacks, vulnerabilities
+and patches, and closes with concrete defensive recommendations.
+
+- [Security bulletins index](https://sig9.ch/bulletin/): every daily bulletin, newest first.
+- [RSS feed](https://sig9.ch/bulletin/index.xml): full-text feed, one item per day.
+
+## Company
+
+- [About](https://sig9.ch/about/): who we are and our expertise.
+- [Contact](https://sig9.ch/contact/): how to reach us.
