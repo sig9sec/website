@@ -44,6 +44,9 @@ disableKinds  = ["taxonomy", "term"]
   # Meta data
   description = "sig9 | IT & cybersecurity consulting in Zurich. Security audits, pentests, code reviews, secure software design, blockchain, key ceremonies."
   author = "sig9"
+  # Short site name used in page titles, Twitter Cards and schema.org markup
+  brand = "sig9"
+  twitter = "sig9sec"
   # Google Analitycs
   googleAnalitycsID = "G-H9MCGB28HY"
   # We're using formspree.io for form handling, paste your formspree url below
