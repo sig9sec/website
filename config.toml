@@ -3,6 +3,11 @@ languageCode  = "en-us"
 title         = "sig9 | IT & Cybersecurity Consulting in Zurich, Switzerland"
 theme         = "roxo-hugo"
 summarylength = 25
+disableKinds  = ["taxonomy", "term"]
+
+# The home page has no unique content; /bulletin/index.xml is the one feed.
+[outputs]
+  home = ["HTML"]
 
 # Site Menus
 [menu]
