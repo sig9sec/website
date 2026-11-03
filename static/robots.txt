@@ -50,4 +50,5 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
+# Site map for AI/LLM agents: https://sig9.ch/.well-known/llms.txt
 Sitemap: https://sig9.ch/sitemap.xml
