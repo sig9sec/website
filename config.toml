@@ -1,5 +1,5 @@
 baseURL       = "https://sig9.ch/"
-languageCode  = "en-us"
+locale        = "en-us"
 title         = "sig9 | IT & Cybersecurity Consulting in Zurich, Switzerland"
 theme         = "roxo-hugo"
 summarylength = 25
